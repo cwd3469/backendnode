@@ -1,0 +1,10 @@
+[20.3.07] 
+Routing
+GET / admin
+GET / admin/products
+
+View Engine - Nunjucks
+View Engine(탬플릿 엔진)이란? -> 쉽게 말해서 node에 html이라고 한다.
+Nunjucks 란? - 컨트롤러단에서 데이터베이스를 가지고 오거나 게시글를 가지고 오면 
+
+GET /admin/products 같이나올 템플릿 파일를 지정한다. 
