@@ -8,3 +8,16 @@ View Engine(탬플릿 엔진)이란? -> 쉽게 말해서 node에 html이라고 �
 Nunjucks 란? - 컨트롤러단에서 데이터베이스를 가지고 오거나 게시글를 가지고 오면 
 
 GET /admin/products 같이나올 템플릿 파일를 지정한다. 
+
+미드웨어 - 가로체는 형태
+
+REST API
+GET /users => 사용자 정보
+POST /users => 사용자 추가
+GET /users/(ID) => 한명만 볼때
+PUT /users/(ID) => 한명만 수정할때
+DELETE /users/(ID) => 삭제
+
+controllers /index 대분류url + 폴더 위치
+controllers/admin/index.js (admin url + 미들웨어)
+controllers/admin/admin.ctrl.js( 컨트롤러 역할 )
